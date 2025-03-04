@@ -6,3 +6,15 @@ Query :-
       from bike
       group by category
       having count(1) > 2;
+
+2.Emily needs a list of customer names with the total number of memberships purchased by each.
+ For each customer, display the customer's name and the count of 
+memberships purchased (call this column 
+membership_count ). Sort the 
+results by 
+membership_count , starting with the customer who has purchased 
+the highest number of memberships.
+ Keep in mind that some customers may not have purchased any 
+memberships yet. In such a situation, display 
+0 for the 
+membership_count .
