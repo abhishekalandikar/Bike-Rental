@@ -12,7 +12,7 @@ By extracting and analyzing data from the database, this project helps optimize 
 
 The bike rental shop database consists of five tables:
 
-1️⃣ Customer Table\
+1️⃣ Customer Table
 
 Contains details about the customers of the bike rental shop.
 Columns:
