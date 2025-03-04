@@ -1,0 +1,8 @@
+1.  Find how many bikes the shop owns by category.Display the category name and the number of bikes the shop owns in each category (call this column number_of_bikes ). Show only the categories 
+where the number of bikes is greater than 2.
+
+Query :- 
+      select category, count(1) as number_of_bikes 
+      from bike
+      group by category
+      having count(1) > 2;
